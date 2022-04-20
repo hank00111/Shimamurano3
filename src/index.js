@@ -2,21 +2,19 @@ import React from 'react';
 import ReactDOM from "react-dom/client";
 import './index.css';
 import App from './App';
-import App2 from './App2';
 import Footer from './footer';
 //import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const roo1 = ReactDOM.createRoot(document.getElementById("root1"));
+const footer = ReactDOM.createRoot(document.getElementById("footer"));
 root.render(
   <React.StrictMode>    
     <App />
   </React.StrictMode>
 );
-roo1.render(
+footer.render(
   <React.StrictMode>    
-    <Footer />
-    <App2 />
+    <Footer />    
   </React.StrictMode>
 );
 
