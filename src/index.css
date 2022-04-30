@@ -1,25 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap);
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Kosugi Maru', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
 }
 
+
 ::-webkit-scrollbar {
   width: 8px;
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
   background: #32363d;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: #696d74;
-  border-radius: 100vw; 
+  border-radius: 100vw;
 }
 
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
   background: #9c9c9c;
 }
