@@ -1,1 +1,3 @@
 # ShimamuraNo3
+
+アニメログ
