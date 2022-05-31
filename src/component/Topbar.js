@@ -1,12 +1,9 @@
 import './Top.css';
-import { React, useEffect } from 'react';
+import { React } from 'react';
 import { Link, useLocation } from "react-router-dom";
 
 function Topbar() {
     const location = useLocation();
-    useEffect(() => {
-        console.log(location)
-    });
     let HomeActive = "";
     let AnimeActive = "";
     if (location.pathname === "/") {
